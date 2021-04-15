@@ -1,0 +1,385 @@
+.text {
+  width: 200px;
+  height: 70px;
+  background-color: #000;
+}
+
+.parent {
+  background-color: red;
+}
+
+.parent.child {
+  background-color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+}
+
+.box-blue {
+  background-color: blue;
+  height: 70px;
+  width: 200px;
+}
+
+.box-100 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box-100:hover {
+  border: 1px solid grey;
+}
+
+.box-200 {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.box-200:hover {
+  border: 1px solid #fff000;
+}
+
+.grandFather, .grandSon {
+  font-size: 15px;
+  line-height: 40;
+  letter-spacing: 5px;
+}
+
+.grandSon {
+  font-size: 30px;
+}
+
+.square {
+  height: 270px;
+  width: 270px;
+  background-color: brown;
+}
+
+/*.fontX10 {
+    font-size: $i + px;
+  }*/
+.fontX10 {
+  font-size: 10px;
+}
+
+/*.fontX11 {
+    font-size: $i + px;
+  }*/
+/*.fontX12 {
+    font-size: $i + px;
+  }*/
+.fontX12 {
+  font-size: 12px;
+}
+
+/*.fontX13 {
+    font-size: $i + px;
+  }*/
+/*.fontX14 {
+    font-size: $i + px;
+  }*/
+.fontX14 {
+  font-size: 14px;
+}
+
+/*.fontX15 {
+    font-size: $i + px;
+  }*/
+/*.fontX16 {
+    font-size: $i + px;
+  }*/
+.fontX16 {
+  font-size: 16px;
+}
+
+/*.fontX17 {
+    font-size: $i + px;
+  }*/
+/*.fontX18 {
+    font-size: $i + px;
+  }*/
+.fontX18 {
+  font-size: 18px;
+}
+
+/*.fontX19 {
+    font-size: $i + px;
+  }*/
+/*.fontX20 {
+    font-size: $i + px;
+  }*/
+.fontX20 {
+  font-size: 20px;
+}
+
+/*.fontX21 {
+    font-size: $i + px;
+  }*/
+/*.fontX22 {
+    font-size: $i + px;
+  }*/
+.fontX22 {
+  font-size: 22px;
+}
+
+/*.fontX23 {
+    font-size: $i + px;
+  }*/
+/*.fontX24 {
+    font-size: $i + px;
+  }*/
+.fontX24 {
+  font-size: 24px;
+}
+
+/*.fontX25 {
+    font-size: $i + px;
+  }*/
+/*.fontX26 {
+    font-size: $i + px;
+  }*/
+.fontX26 {
+  font-size: 26px;
+}
+
+/*.fontX27 {
+    font-size: $i + px;
+  }*/
+/*.fontX28 {
+    font-size: $i + px;
+  }*/
+.fontX28 {
+  font-size: 28px;
+}
+
+/*.fontX29 {
+    font-size: $i + px;
+  }*/
+/*.fontX30 {
+    font-size: $i + px;
+  }*/
+.fontX30 {
+  font-size: 30px;
+}
+
+/*.fontX31 {
+    font-size: $i + px;
+  }*/
+/*.fontX32 {
+    font-size: $i + px;
+  }*/
+.fontX32 {
+  font-size: 32px;
+}
+
+/*.fontX33 {
+    font-size: $i + px;
+  }*/
+/*.fontX34 {
+    font-size: $i + px;
+  }*/
+.fontX34 {
+  font-size: 34px;
+}
+
+/*.fontX35 {
+    font-size: $i + px;
+  }*/
+/*.fontX36 {
+    font-size: $i + px;
+  }*/
+.fontX36 {
+  font-size: 36px;
+}
+
+/*.fontX37 {
+    font-size: $i + px;
+  }*/
+/*.fontX38 {
+    font-size: $i + px;
+  }*/
+.fontX38 {
+  font-size: 38px;
+}
+
+/*.fontX39 {
+    font-size: $i + px;
+  }*/
+/*.fontX40 {
+    font-size: $i + px;
+  }*/
+.fontX40 {
+  font-size: 40px;
+}
+
+/*.fontX41 {
+    font-size: $i + px;
+  }*/
+/*.fontX42 {
+    font-size: $i + px;
+  }*/
+.fontX42 {
+  font-size: 42px;
+}
+
+/*.fontX43 {
+    font-size: $i + px;
+  }*/
+/*.fontX44 {
+    font-size: $i + px;
+  }*/
+.fontX44 {
+  font-size: 44px;
+}
+
+/*.fontX45 {
+    font-size: $i + px;
+  }*/
+/*.fontX46 {
+    font-size: $i + px;
+  }*/
+.fontX46 {
+  font-size: 46px;
+}
+
+/*.fontX47 {
+    font-size: $i + px;
+  }*/
+/*.fontX48 {
+    font-size: $i + px;
+  }*/
+.fontX48 {
+  font-size: 48px;
+}
+
+/*.fontX49 {
+    font-size: $i + px;
+  }*/
+/*.fontX50 {
+    font-size: $i + px;
+  }*/
+.fontX50 {
+  font-size: 50px;
+}
+
+/*.fontX51 {
+    font-size: $i + px;
+  }*/
+/*.fontX52 {
+    font-size: $i + px;
+  }*/
+.fontX52 {
+  font-size: 52px;
+}
+
+/*.fontX53 {
+    font-size: $i + px;
+  }*/
+/*.fontX54 {
+    font-size: $i + px;
+  }*/
+.fontX54 {
+  font-size: 54px;
+}
+
+/*.fontX55 {
+    font-size: $i + px;
+  }*/
+/*.fontX56 {
+    font-size: $i + px;
+  }*/
+.fontX56 {
+  font-size: 56px;
+}
+
+/*.fontX57 {
+    font-size: $i + px;
+  }*/
+/*.fontX58 {
+    font-size: $i + px;
+  }*/
+.fontX58 {
+  font-size: 58px;
+}
+
+/*.fontX59 {
+    font-size: $i + px;
+  }*/
+/*.fontX60 {
+    font-size: $i + px;
+  }*/
+.fontX60 {
+  font-size: 60px;
+}
+
+/*.fontX61 {
+    font-size: $i + px;
+  }*/
+/*.fontX62 {
+    font-size: $i + px;
+  }*/
+.fontX62 {
+  font-size: 62px;
+}
+
+/*.fontX63 {
+    font-size: $i + px;
+  }*/
+/*.fontX64 {
+    font-size: $i + px;
+  }*/
+.fontX64 {
+  font-size: 64px;
+}
+
+/*.fontX65 {
+    font-size: $i + px;
+  }*/
+/*.fontX66 {
+    font-size: $i + px;
+  }*/
+.fontX66 {
+  font-size: 66px;
+}
+
+/*.fontX67 {
+    font-size: $i + px;
+  }*/
+/*.fontX68 {
+    font-size: $i + px;
+  }*/
+.fontX68 {
+  font-size: 68px;
+}
+
+/*.fontX69 {
+    font-size: $i + px;
+  }*/
+/*.fontX70 {
+    font-size: $i + px;
+  }*/
+.fontX70 {
+  font-size: 70px;
+}
+
+.test1 {
+  widows: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.test2 {
+  widows: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.test2 .chidren {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

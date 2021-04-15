@@ -1,0 +1,74 @@
+@import "variable.scss";
+@import "mixin.scss";
+
+.text{
+  width: $widthblock;
+  height: $heightBlock;
+  background-color:$bacground;
+}
+
+.parent{
+  background-color: red;
+  &.child{
+    background-color: blue;
+  }
+}
+
+.box{
+  width: $widthblock;
+  height: 100px;
+  background-color: green;
+  &-blue {
+  background-color:blue;
+  height:$heightBlock;
+  width: $widthblock;
+  }
+}
+
+
+.box-100{
+  @include getRedBox(100px);
+  @include addHover()
+}
+.box-200{
+  @include getRedBox(500px, green);
+  @include addHover(#fff000)
+}
+
+.grandFather{
+  font-size: 15px;
+  line-height: 40;
+  letter-spacing: 5px;
+}
+
+.grandSon{
+  @extend .grandFather;
+  font-size: 30px;
+}
+
+.square{
+height: $widthblock + $heightBlock;
+width: $widthblock + $heightBlock;
+background-color: brown;
+}
+
+@for $i from 10 through 70 {
+  /*.fontX#{$i} {
+    font-size: $i + px;
+  }*/
+  @if $i %2 == 0 {
+    .fontX#{$i}{
+      font-size: $i + px;
+    }
+  }
+}
+
+.test1{
+  @include getScheme (false);
+}
+
+.test2{
+  @include getScheme (true);
+}
+
+

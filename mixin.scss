@@ -1,0 +1,22 @@
+@mixin getRedBox($boxSize, $backColor:red) {
+  width: $boxSize;
+  height:$boxSize;
+  background-color: $backColor;
+}
+
+@mixin addHover($borderColor:grey) {
+  &:hover{
+    border: 1px solid $borderColor;
+  }
+}
+
+@mixin getScheme($widthChild) {
+  widows: 20px;
+  height: 20px;
+  background-color: blue;
+  @if $widthChild {
+    .chidren{
+      color: #fff;
+    }
+  }
+}
