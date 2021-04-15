@@ -382,4 +382,14 @@
 .test2 .chidren {
   color: #fff;
 }
+
+.text {
+  color: yellow;
+}
+
+@media (max-width: 768px) {
+  .text {
+    color: green;
+  }
+}
 /*# sourceMappingURL=style.css.map */

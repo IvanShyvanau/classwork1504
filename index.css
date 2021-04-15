@@ -1,0 +1,13 @@
+:root{
+  --f-text: brown
+}
+
+.text{
+  color: var(--f-text);
+}
+
+@media (max-width: 768px){
+  :root{
+    --f-text:green;
+  }
+}

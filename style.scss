@@ -71,4 +71,11 @@ background-color: brown;
   @include getScheme (true);
 }
 
+.text{
+  color: $color;
+  @media(max-width: 768px){
+    color: green;
+  
+  }
+}
 
